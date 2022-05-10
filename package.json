@@ -2,7 +2,7 @@
   "name": "igorgcommon",
   "version": "1.0.3",
   "description": "",
-  "main": "./buid/index.js",
+  "main": "./build/index.js",
   "types": "./build/index.d.ts",
   "files": [
     "/build/**/*"
