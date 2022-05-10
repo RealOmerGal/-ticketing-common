@@ -1,16 +1,16 @@
 {
   "name": "igorgcommon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "./buid/index.js",
-  "types":"./build/index.d.ts",
-  "files":[
+  "types": "./build/index.d.ts",
+  "files": [
     "/build/**/*"
   ],
   "scripts": {
     "clean": "del ./build/*",
-    "build":"npm run clean && tsc",
-    "pub":"git add . && git commit -m \"Updates\" && npm version patch && npm run build && npm publish"
+    "build": "npm run clean && tsc",
+    "pub": "git add . && git commit -m \"Updates\" && npm version patch && npm run build && npm publish"
   },
   "keywords": [],
   "author": "",
